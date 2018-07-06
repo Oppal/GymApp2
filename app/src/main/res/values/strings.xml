@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Fit Gym</string>
+    <string name="title_activity_login">login</string>
+    <string name="api_key">AIzaSyAizw6rWkv0LvHdr9_tZpf90iMR3eZpg_Y</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">Fit Gym</string>
+    <string name="backdrop_subtitle">Health is Wealth</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="logout">Logout</string>
+    <string name="my_profile">My Profile</string>
+    <string name="change_language">Change language</string>
+    <string name="home">Home</string>
+    <string name="help">Help</string>
+    <string name="view">View</string>
+    <string name="add_to_workout_plan">add to Workout Plan</string>
+    <string name="new_workout">new Workout</string>
+    <string name="view_my_workouts">View my workouts</string>
+    <string name="kiswahili">kiswahili</string>
+    <string name="english">English</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="11dp"
+        android:id="@+id/fitgymlogo"
+        android:src="@drawable/fitgymlogo" />
+
+
+    <Button
+        android:layout_width="205dp"
+        android:id="@+id/ButtonLogin"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:text="LOGIN"
+        />
+
+    <EditText
+        android:id="@+id/EditedTextEmail"
+        android:layout_width="157dp"
+        android:layout_height="35dp"
+        android:textSize="14dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="100dp"
+        android:hint="email"
+        android:textStyle="italic"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/EditedTextPassword"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="189dp"
+        android:layout_marginLeft="100dp"
+        android:hint="password"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="177dp"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/ic_action_login" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="198dp"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/ic_action_password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="125dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="36dp"
+        android:text="new user? sign up"
+        android:id="@+id/TextViewSignup"
+        android:textColor="@color/TronBlue"
+        />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:id="@+id/ProgressBarLoading"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
+
